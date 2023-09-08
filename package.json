@@ -1,0 +1,14 @@
+{
+  "name": "aws-resource-scraper",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.399.0",
+    "@aws-sdk/client-s3": "^3.400.0",
+    "stringcase": "^4.3.1",
+    "tsx": "^3.12.7"
+  },
+  "scripts": {
+    "scrape": "tsx main.ts"
+  }
+}
