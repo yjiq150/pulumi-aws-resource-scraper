@@ -5,10 +5,15 @@
   "dependencies": {
     "@aws-sdk/client-ec2": "^3.399.0",
     "@aws-sdk/client-s3": "^3.400.0",
+    "lodash": "^4.17.21",
     "stringcase": "^4.3.1",
     "tsx": "^3.12.7"
   },
   "scripts": {
     "scrape": "tsx main.ts"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-organize-imports": "^3.2.3"
   }
 }
